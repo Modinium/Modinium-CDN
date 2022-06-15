@@ -1,1 +1,2 @@
-# Modinium-CDN
+# Modinium CDN
+The CDN for Modinium (duh)
