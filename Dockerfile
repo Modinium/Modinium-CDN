@@ -1,3 +1,3 @@
 FROM "alpine:latest"
 
-ENTRYPOINT "echo Hello from docker!"
+ENTRYPOINT [ "echo", "Hello", "from", "docker!" ]
