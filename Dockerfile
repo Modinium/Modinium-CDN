@@ -1,3 +1,7 @@
 FROM "alpine:latest"
 
-ENTRYPOINT [ "echo", "Hello", "from", "docker!" ]
+RUN apk add --update nodejs npm
+
+COPY express/*  ~
+
+ENTRYPOINT [ "npm", "start" ]
